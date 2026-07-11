@@ -3,26 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Salma Boutique | Premium International Couture</title>
-    <!-- Google Fonts -->
+    <title>AWAIS DRESS DESIGNER | Pakistan's Premier Couture House</title>
+    <meta name="description" content="AWAIS DRESS DESIGNER - Pakistan's leading destination for premium haute couture, bridal wear and designer collections.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
-    <!-- FontAwesome Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Custom Combined Stylesheet -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-    <!-- PREMIUM NAVIGATION -->
     <header>
         <div class="nav-container">
-            <div class="logo">
-                <a href="#">SALMA</a>
-            </div>
+            <div class="logo"><a href="#home">AWAIS DRESS DESIGNER</a></div>
             <nav>
-                <ul class="nav-links">
+                <ul class="nav-links" id="navLinks">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#categories">Collections</a></li>
@@ -33,19 +28,97 @@
             <div class="nav-icons">
                 <i class="fas fa-search" title="Search Collections"></i>
                 <i class="fas fa-shopping-bag" title="View Cart"></i>
+                <i class="fas fa-bars menu-toggle" id="menuToggle" title="Menu"></i>
             </div>
         </div>
     </header>
 
-    <!-- LUXURY HERO SECTION -->
     <section id="home" class="hero-section">
         <div class="hero-content">
-            <p class="hero-subtitle">Exquisite Haute Couture</p>
+            <p class="hero-subtitle">Pakistan's Premier Couture House</p>
             <h1 class="hero-title">Timeless Elegance <br><span>Redefined</span></h1>
-            <p class="hero-description">Discover curated international designs crafted for those who appreciate premium craftsmanship and sophisticated luxury fashion.</p>
+            <p class="hero-description">Discover curated designer collections crafted for those who appreciate premium craftsmanship and sophisticated luxury fashion.</p>
             <a href="#categories" class="cta-btn">Explore Collections</a>
         </div>
     </section>
+
+    <section id="about" class="about-section">
+        <div class="section-heading">
+            <p class="tag">Our Story</p>
+            <h2>Crafting Elegance Since Day One</h2>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <p>AWAIS DRESS DESIGNER stands as Pakistan's trusted name in premium fashion, blending traditional craftsmanship with contemporary design. Every piece is meticulously created to celebrate individuality and grace.</p>
+                <div class="about-stats">
+                    <div class="stat-box"><h3>10+</h3><p>Years of Excellence</p></div>
+                    <div class="stat-box"><h3>5000+</h3><p>Happy Clients</p></div>
+                    <div class="stat-box"><h3>200+</h3><p>Exclusive Designs</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="categories" class="categories-section">
+        <div class="section-heading">
+            <p class="tag">Collections</p>
+            <h2>Curated For You</h2>
+        </div>
+        <div class="category-grid">
+            <div class="category-card">
+                <i class="fas fa-crown"></i>
+                <h3>Bridal Couture</h3>
+                <p>Handcrafted bridal wear for your most cherished day.</p>
+            </div>
+            <div class="category-card">
+                <i class="fas fa-gem"></i>
+                <h3>Formal Wear</h3>
+                <p>Elegant designs for weddings and formal occasions.</p>
+            </div>
+            <div class="category-card">
+                <i class="fas fa-leaf"></i>
+                <h3>Casual Luxe</h3>
+                <p>Everyday sophistication with premium comfort fabrics.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery-section">
+        <div class="section-heading">
+            <p class="tag">Gallery</p>
+            <h2>Our Signature Pieces</h2>
+        </div>
+        <div class="gallery-grid">
+            <div class="gallery-item"><i class="fas fa-image"></i></div>
+            <div class="gallery-item"><i class="fas fa-image"></i></div>
+            <div class="gallery-item"><i class="fas fa-image"></i></div>
+            <div class="gallery-item"><i class="fas fa-image"></i></div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="section-heading">
+            <p class="tag">Get In Touch</p>
+            <h2>Visit Or Contact Us</h2>
+        </div>
+        <div class="contact-content">
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="4" required></textarea>
+                <button type="submit" class="cta-btn">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <p><i class="fas fa-phone"></i> +92 300 0000000</p>
+                <p><i class="fas fa-envelope"></i> info@awaisdressdesigner.pk</p>
+                <p><i class="fas fa-location-dot"></i> Lahore, Pakistan</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 AWAIS DRESS DESIGNER. All Rights Reserved.</p>
+    </footer>
 
     <script src="js/main.js"></script>
 </body>
